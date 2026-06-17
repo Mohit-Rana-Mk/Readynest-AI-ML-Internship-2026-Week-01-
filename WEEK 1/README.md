@@ -1,102 +1,214 @@
-# Superstore Sales Analysis
+# Superstore Sales Analysis & Dashboard
 
-## Project Overview
+## Overview
 
-This project performs Exploratory Data Analysis (EDA) on the Superstore Sales Dataset to identify business trends, customer behavior, regional performance, sales patterns, and profitability insights.
+This project analyzes retail sales data from the Superstore dataset to uncover business trends, customer behavior, regional performance, and profitability drivers.
+
+The project combines Exploratory Data Analysis (EDA) using Python with an interactive Power BI dashboard to transform raw sales data into actionable business insights.
+
+---
 
 ## Objectives
 
-* Perform data cleaning and preprocessing
-* Analyze sales and profit performance
-* Identify top-performing categories and regions
-* Study customer segments
-* Visualize key business metrics
-* Extract actionable business insights
+The primary goals of this project were to:
 
-## Dataset Information
+- Clean and prepare sales data for analysis
+- Identify sales and profit trends
+- Evaluate category and regional performance
+- Analyze customer segments
+- Study the impact of discounts on profitability
+- Build an interactive dashboard for business reporting
+- Generate data-driven recommendations
 
-Dataset: Superstore Sales Dataset
+---
 
-Rows: 10,194
+## Dataset
 
-Columns: 21
+The analysis was performed on the Superstore Sales Dataset.
 
-Key Features:
+Dataset Summary:
 
-* Sales
-* Profit
-* Quantity
-* Discount
-* Customer Segment
-* Region
-* Category
-* Sub-Category
-* Order Date
+- Records: 10,194
+- Features: 21
+- Domain: Retail Analytics
+
+Key attributes include:
+
+- Sales
+- Profit
+- Quantity
+- Discount
+- Category
+- Sub-Category
+- Customer Segment
+- Region
+- Customer Name
+- Order Date
+
+---
 
 ## Tools & Technologies
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+### Data Analysis
 
-## Analysis Performed
+- Python
+- Pandas
+- NumPy
 
-### Data Cleaning
+### Data Visualization
 
-* Missing Value Analysis
-* Duplicate Detection
-* Data Type Conversion
-* Date Formatting
-* Column Standardization
+- Matplotlib
+- Seaborn
 
-### Descriptive Statistics
+### Business Intelligence
 
-* Total Sales
-* Total Profit
-* Total Orders
-* Total Customers
-* Profit Margin
+- Power BI
 
-### Univariate Analysis
+### Development Environment
 
-* Sales Distribution
-* Profit Distribution
-* Quantity Distribution
-* Discount Distribution
-* Boxplot Analysis
+- Jupyter Notebook
 
-### Bivariate Analysis
+---
 
-* Sales vs Profit
-* Discount vs Profit
-* Quantity vs Profit
-* Correlation Heatmap
+## Project Workflow
 
-### Business Insights
+### Data Preparation
 
-* Category Performance
-* Region Performance
-* Segment Analysis
-* Product Analysis
-* Profitability Analysis
+The dataset was cleaned and validated by:
 
-## Project Status
+- Handling missing values
+- Removing duplicate records
+- Converting data types
+- Formatting date fields
+- Verifying data quality
 
-Completed:
+### Exploratory Data Analysis
 
-* Data Cleaning
-* EDA
-* Statistical Analysis
-* Insight Extraction
+EDA was performed to understand:
 
-Pending:
+- Sales patterns
+- Profitability trends
+- Customer behavior
+- Product performance
+- Regional performance
+- Discount impact
 
-* Interactive Power BI Dashboard
+### Dashboard Development
+
+An interactive Power BI dashboard was developed to provide:
+
+- Sales performance monitoring
+- Profit analysis
+- Customer insights
+- Category comparison
+- Regional performance tracking
+- Product-level analysis
+
+---
+
+## Dashboard Highlights
+
+The Power BI dashboard includes:
+
+### KPI Metrics
+
+- Total Sales: 2.33M
+- Total Profit: 292K
+- Total Orders: 5K
+- Total Customers: 804
+
+### Sales Analysis
+
+- Monthly Sales Trend
+- Category-wise Sales
+- Region-wise Sales
+- Segment-wise Sales
+
+### Profit Analysis
+
+- Profit by Category
+- Profit by Region
+
+### Customer Insights
+
+- Customer Segment Performance
+- Revenue Contribution Analysis
+
+### Product Performance
+
+- Top Selling Products
+- Product Revenue Comparison
+
+### Interactive Features
+
+- Region Filters
+- Category Filters
+- Segment Filters
+- Date Range Selection
+
+---
+
+## Key Insights
+
+The analysis revealed several important business findings:
+
+- Technology generated the highest sales and profit.
+- The West region contributed the highest revenue and profitability.
+- Consumer customers accounted for the largest share of sales.
+- Furniture generated strong sales but comparatively lower profit margins.
+- High discount levels negatively impacted profitability across multiple product categories.
+
+---
+
+## Business Recommendations
+
+Based on the analysis:
+
+- Focus marketing efforts on high-performing technology products.
+- Optimize discount strategies to improve profit margins.
+- Expand successful sales strategies used in the West region.
+- Improve profitability within the Furniture category.
+- Strengthen customer retention initiatives for the Consumer segment.
+
+---
+
+## Project Structure
+
+```text
+Superstore-Sales-Analysis/
+│
+├── data/
+│   └── Superstore.csv
+│
+├── notebooks/
+│   └── Superstore_EDA.ipynb
+│
+├── dashboard/
+│   └── Superstore_Dashboard.pbix
+│
+├── images/
+│   └── dashboard_screenshot.png
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+## Deliverables
+
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis
+- Data Visualization
+- Business Insights Report
+- Interactive Power BI Dashboard
+
+---
 
 ## Author
 
 Mohit Kumar Rana
+
+Data Analytics Intern
 ReadyNest AI & ML Internship 2026
