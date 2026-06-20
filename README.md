@@ -1,77 +1,130 @@
-# ReadyNest AI & ML Internship 2026
+# Superstore Sales Intelligence Platform
 
 ## Overview
 
-This repository documents my 6-week AI & Machine Learning Internship at ReadyNest Corp.
+This project analyzes Superstore sales data to uncover business insights, evaluate profitability, and visualize trends through an interactive Power BI dashboard.
 
-The internship focuses on:
-
-* Data Analytics
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Dashboard Development
-* Feature Engineering
-* Machine Learning
-* Predictive Modeling
-* Business Intelligence
+The project demonstrates an end-to-end data analytics workflow including data preparation, exploratory data analysis, feature engineering, business insight generation, and dashboard development.
 
 ---
 
-## Technology Stack
+## Objectives
 
-### Programming
+* Understand sales and profit trends.
+* Identify high-performing and low-performing products.
+* Analyze customer segments and shipping preferences.
+* Evaluate regional sales distribution.
+* Develop an interactive dashboard for decision-making.
+
+---
+
+## Dataset
+
+**Dataset:** Sample Superstore Dataset
+
+Features include:
+
+* Order Date
+* Ship Date
+* Sales
+* Profit
+* Discount
+* Quantity
+* Category
+* Sub-Category
+* Region
+* State
+* Customer Segment
+
+---
+
+## Project Workflow
+
+### 1. Data Preparation
+
+* Missing value inspection
+* Duplicate removal
+* Data type correction
+* Date conversion
+
+### 2. Exploratory Data Analysis
+
+* Descriptive statistics
+* Univariate analysis
+* Bivariate analysis
+* Correlation analysis
+
+### 3. Feature Engineering
+
+* Month-Year extraction
+* Profit Margin calculation
+* Average Order Value
+
+### 4. Dashboard Development
+
+Pages included:
+
+* Executive Overview
+* Sales Analysis
+* Customer Analytics
+* Product Analytics
+* Geographic Analysis
+* Forecasting
+
+Customer Analytics.png
+
+
+---
+
+## Key Insights
+
+* Technology generated the highest sales.
+* Furniture showed lower profit margins.
+* California contributed the highest revenue.
+* Large discounts negatively impacted profit.
+* Standard Class was the most used shipping mode.
+
+---
+
+## Technologies Used
 
 * Python
-* SQL
-
-### Data Analysis
-
 * Pandas
 * NumPy
-
-### Visualization
-
 * Matplotlib
 * Seaborn
 * Plotly
-
-### Dashboarding
-
-* Streamlit
 * Power BI
-
-### Machine Learning
-
-* Scikit-Learn
-
-### Version Control
-
 * Git
 * GitHub
 
 ---
 
-## Weekly Progress
+## Repository Structure
 
-| Week   | Project                      | Status         |
-| ------ | ---------------------------- | -------------- |
-| Week 1 | Dataset Analysis & Reporting | In Progress |
-| Week 2 | Upcoming Task                | Pending      |
-| Week 3 | Upcoming Task                | Pending      |
-| Week 4 | Upcoming Task                | Pending      |
-| Week 5 | Upcoming Task                | Pending      |
-| Week 6 | Upcoming Task                | Pending      |
+dataset/
+
+images/
+
+notebook/
+
+powerbi/
+
+reports/
+
+README.md
+
+requirements.txt
 
 ---
 
-## Learning Objectives
+## Future Improvements
 
-* Data Cleaning
-* Statistical Analysis
-* Data Storytelling
-* Dashboard Design
-* Predictive Analytics
-* Machine Learning Workflows
+* RFM Segmentation
+* Cohort Analysis
+* Market Basket Analysis
+* Machine Learning Forecasting
+* Web-based Analytics Dashboard
 
 ---
 
@@ -79,6 +132,5 @@ The internship focuses on:
 
 Mohit Kumar Rana
 
-AI & Data Science Undergraduate
-
-Building practical AI and Data Science solutions through real-world projects.
+AI-ML Intern
+2026
