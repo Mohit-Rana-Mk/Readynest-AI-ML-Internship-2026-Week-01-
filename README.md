@@ -180,7 +180,7 @@ Minimum dataset requirements:
 
 ---
 
-## Expected Dataset Fields
+## Dataset Fields
 
 | Column |
 |--------|
@@ -245,13 +245,8 @@ Superstore-Sales-Intelligence-Platform/
 │
 ├── images/
 │
-├── requirements.txt
 ├── README.md
 ├── LICENSE
-├── .gitignore
-├── CONTRIBUTING.md
-├── CODE_OF_CONDUCT.md
-└── CHANGELOG.md
 ```
 
 ---
