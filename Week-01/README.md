@@ -71,7 +71,11 @@ Pages included:
 * Geographic Analysis
 * Forecasting
 
-<img src="powerBi/dashboard screenshots/Customer Analytics.png" alt="Customer Analytics" width="600">
+<img src="powerBi/dashboard screenshots/Customer Analytics.png" alt="Customer Analytics" width="300">
+<img src="powerBi/dashboard screenshots/Executive Overview.png" alt="Customer Analytics" width="300">
+<img src="powerBi/dashboard screenshots/Forecasting & Bonuses.png" alt="Customer Analytics" width="300">
+<img src="powerBi/dashboard screenshots/Geographic Insights.png" alt="Customer Analytics" width="300">
+<img src="powerBi/dashboard screenshots/Product Intelligence.png" alt="Customer Analytics" width="300">
 
 ---
 
