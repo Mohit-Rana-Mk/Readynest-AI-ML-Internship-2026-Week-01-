@@ -71,6 +71,8 @@ Pages included:
 * Geographic Analysis
 * Forecasting
 
+<img src="powerBi/dashboard screenshots/Customer Analytics.png" alt="Customer Analytics" width="600">
+
 ---
 
 ## Key Insights
