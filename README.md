@@ -16,7 +16,7 @@ Available upon request
 
 ### GitHub Repository
 
-https://github.com/yourusername/Superstore-Sales-Intelligence-Platform
+https://github.com/Mohit-Rana-Mk/Readynest-AI-ML-Internship-2026-Week-01-
 
 ---
 
