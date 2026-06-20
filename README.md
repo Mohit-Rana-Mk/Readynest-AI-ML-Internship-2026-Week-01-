@@ -71,6 +71,12 @@ Pages included:
 * Geographic Analysis
 * Forecasting
 
+<img src="powerBi/dashboard%20screenshots/Executive%20Overview.png" alt="Executive Overview Dashboard" width="300">
+<img src="powerBi/dashboard%20screenshots/Customer%20Analytics.png" alt="Customer Analytics Dashboard" width="300">
+<img src="powerBi/dashboard%20screenshots/Product%20Intelligence.png" alt="Product Intelligence Dashboard" width="300">
+<img src="powerBi/dashboard%20screenshots/Geographic%20Insights.png" alt="Geographic Insights Dashboard" width="300">
+<img src="powerBi/dashboard%20screenshots/Forecasting%20%26%20Bonuses.png" alt="Forecasting and Bonuses Dashboard" width="300">
+
 ---
 
 ## Key Insights
