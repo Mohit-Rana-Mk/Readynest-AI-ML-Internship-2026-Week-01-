@@ -71,9 +71,6 @@ Pages included:
 * Geographic Analysis
 * Forecasting
 
-Customer Analytics.png
-
-
 ---
 
 ## Key Insights
