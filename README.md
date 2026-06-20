@@ -1,139 +1,358 @@
 # Superstore Sales Intelligence Platform
 
-## Overview
+Superstore Sales Intelligence Platform is a business analytics solution built around the Sample Superstore dataset to automate sales analysis, profitability tracking, customer behavior exploration, and executive reporting.
 
-This project analyzes Superstore sales data to uncover business insights, evaluate profitability, and visualize trends through an interactive Power BI dashboard.
+The project combines Python-based exploratory data analysis with an interactive Power BI dashboard to transform raw transactional data into actionable business intelligence.
 
-The project demonstrates an end-to-end data analytics workflow including data preparation, exploratory data analysis, feature engineering, business insight generation, and dashboard development.
-
----
-
-## Objectives
-
-* Understand sales and profit trends.
-* Identify high-performing and low-performing products.
-* Analyze customer segments and shipping preferences.
-* Evaluate regional sales distribution.
-* Develop an interactive dashboard for decision-making.
+It enables stakeholders to monitor KPIs, identify profitable products, evaluate customer segments, analyze regional performance, and forecast future sales trends through an intuitive dashboard experience.
 
 ---
 
-## Dataset
+# Live Demo
 
-**Dataset:** Sample Superstore Dataset
+### Power BI Dashboard
 
-Features include:
+Available upon request
 
-* Order Date
-* Ship Date
-* Sales
-* Profit
-* Discount
-* Quantity
-* Category
-* Sub-Category
-* Region
-* State
-* Customer Segment
+### GitHub Repository
+
+https://github.com/yourusername/Superstore-Sales-Intelligence-Platform
 
 ---
 
-## Project Workflow
+# Features
 
-### 1. Data Preparation
+## Core Analytics Features
 
-* Missing value inspection
-* Duplicate removal
-* Data type correction
-* Date conversion
-
-### 2. Exploratory Data Analysis
-
-* Descriptive statistics
-* Univariate analysis
-* Bivariate analysis
-* Correlation analysis
-
-### 3. Feature Engineering
-
-* Month-Year extraction
-* Profit Margin calculation
-* Average Order Value
-
-### 4. Dashboard Development
-
-Pages included:
-
-* Executive Overview
-* Sales Analysis
-* Customer Analytics
-* Product Analytics
-* Geographic Analysis
-* Forecasting
-
-<img src="Week-01/powerBi/dashboard%20screenshots/Executive%20Overview.png" alt="Executive Overview Dashboard" width="300">
-<img src="Week-01/powerBi/dashboard%20screenshots/Customer%20Analytics.png" alt="Customer Analytics Dashboard" width="300">
-<img src="Week-01/powerBi/dashboard%20screenshots/Product%20Intelligence.png" alt="Product Intelligence Dashboard" width="300">
-<img src="Week-01/powerBi/dashboard%20screenshots/Geographic%20Insights.png" alt="Geographic Insights Dashboard" width="300">
-<img src="Week-01/powerBi/dashboard%20screenshots/Forecasting%20%26%20Bonuses.png" alt="Forecasting and Bonuses Dashboard" width="300">
+- Superstore dataset loading
+- Data quality assessment
+- Missing value inspection
+- Duplicate record detection
+- Data type validation
+- Date format conversion
+- Descriptive statistical analysis
+- Dataset profiling
+- Numerical summary generation
+- Category-wise aggregation
+- Correlation analysis
+- Business insight extraction
+- Profitability analysis
+- Discount impact analysis
+- Customer segmentation analysis
 
 ---
 
-## Key Insights
+## Exploratory Data Analysis Features
 
-* Technology generated the highest sales.
-* Furniture showed lower profit margins.
-* California contributed the highest revenue.
-* Large discounts negatively impacted profit.
-* Standard Class was the most used shipping mode.
+### Univariate Analysis
 
----
+- Sales distribution
+- Profit distribution
+- Quantity distribution
+- Discount distribution
 
-## Technologies Used
+### Bivariate Analysis
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Plotly
-* Power BI
-* Git
-* GitHub
+- Sales vs Profit
+- Discount vs Profit
+- Segment vs Sales
+- Category vs Profit
 
----
+### Multivariate Analysis
 
-## Repository Structure
-
-dataset/
-
-images/
-
-notebook/
-
-powerbi/
-
-reports/
-
-README.md
-
-requirements.txt
+- Correlation heatmap
+- Regional comparison
+- Monthly trend analysis
 
 ---
 
-## Future Improvements
+## Dashboard Features
 
-* RFM Segmentation
-* Cohort Analysis
-* Market Basket Analysis
-* Machine Learning Forecasting
-* Web-based Analytics Dashboard
+### Executive Overview
+
+- Total Sales KPI
+- Total Profit KPI
+- Order Count KPI
+- Profit Margin KPI
+
+### Sales Analytics
+
+- Monthly sales trends
+- Category performance
+- Sub-category analysis
+
+### Customer Analytics
+
+- Segment analysis
+- Shipping mode preferences
+- Customer purchasing behavior
+
+### Product Intelligence
+
+- Best-selling products
+- Loss-making products
+- Discount sensitivity analysis
+
+### Geographic Insights
+
+- Regional sales distribution
+- State-wise profitability
+- Market performance comparison
+
+### Forecasting
+
+- Future sales projection
+- Trend visualization
 
 ---
 
-## Author
+## Bonus Features
 
-Mohit Kumar Rana
+- Profit Margin calculation
+- Average Order Value computation
+- Month-Year extraction
+- Dynamic filtering
+- Interactive slicers
+- Drill-through pages
+- Forecast visuals
+- Responsive dashboard layout
 
-AI-ML Intern
+---
+
+# Business Insights
+
+- Technology generated the highest revenue.
+
+- Furniture products contributed lower profit margins.
+
+- California was the most profitable state.
+
+- Large discounts significantly reduced profitability.
+
+- Standard Class remained the most frequently used shipping mode.
+
+---
+
+# Tech Stack
+
+## Data Processing
+
+- Python
+- Pandas
+- NumPy
+
+---
+
+## Data Visualization
+
+- Matplotlib
+- Seaborn
+- Plotly
+
+---
+
+## Dashboarding
+
+- Power BI
+
+---
+
+## Development Tools
+
+- Git
+- GitHub
+- Jupyter Notebook
+
+---
+
+# Dataset Requirements
+
+The project uses the Sample Superstore dataset.
+
+Minimum dataset requirements:
+
+- At least 5 rows
+- Sales column
+- Profit column
+- Category column
+- Region column
+- Order Date column
+
+---
+
+## Expected Dataset Fields
+
+| Column |
+|--------|
+| Order Date |
+| Ship Date |
+| Sales |
+| Profit |
+| Quantity |
+| Discount |
+| Category |
+| Sub-Category |
+| Segment |
+| Region |
+| State |
+| Ship Mode |
+
+---
+
+# Workflow
+
+```text
+Load Dataset
+        ↓
+Data Cleaning
+        ↓
+Exploratory Analysis
+        ↓
+Feature Engineering
+        ↓
+Business Insights
+        ↓
+Dashboard Development
+        ↓
+Interactive Visualizations
+        ↓
+Forecasting
+        ↓
+Executive Reporting
+```
+
+---
+
+# Project Structure
+
+```text
+Superstore-Sales-Intelligence-Platform/
+
+├── Week-01/
+│
+├── dataset/
+│   └── Sample_Superstore.csv
+│
+├── notebook/
+│   └── Superstore_EDA.ipynb
+│
+├── powerBi/
+│   ├── Superstore_Dashboard.pbix
+│   └── dashboard screenshots/
+│
+├── reports/
+│   └── Week-1_Report.pdf
+│
+├── images/
+│
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+└── CHANGELOG.md
+```
+
+---
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yourusername/Superstore-Sales-Intelligence-Platform.git
+
+cd Superstore-Sales-Intelligence-Platform
+```
+
+## Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+## Activate Environment
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+### Linux / Mac
+
+```bash
+source venv/bin/activate
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## Launch Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+---
+
+# Dashboard Preview
+
+<p align="center">
+
+<img src="Week-01/powerBi/dashboard screenshots/Executive Overview.png" width="400">
+
+<img src="Week-01/powerBi/dashboard screenshots/Customer Analytics.png" width="400">
+
+<img src="Week-01/powerBi/dashboard screenshots/Product Intelligence.png" width="400">
+
+<img src="Week-01/powerBi/dashboard screenshots/Geographic Insights.png" width="400">
+
+<img src="Week-01/powerBi/dashboard screenshots/Forecasting & Bonuses.png" width="400">
+
+</p>
+
+---
+
+# Future Improvements
+
+- RFM Segmentation
+- Cohort Analysis
+- Market Basket Analysis
+- Customer Lifetime Value Modeling
+- ARIMA Forecasting
+- LSTM-based Sales Prediction
+- Web-based Analytics Portal
+- Automated PDF Report Generation
+- Power BI Service Deployment
+- Natural Language Querying
+
+---
+
+# Author
+
+**Mohit Kumar Rana**
+
+AI/ML Intern — Week 1 Project
+
 2026
+
+---
+
+## Acknowledgment
+
+Developed as part of the **ReadyNesCorp AI/ML Internship – Week 1 Project**.
+
+Focused on demonstrating practical skills in:
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Feature Engineering
+- Business Intelligence
+- Dashboard Design
+- Sales Forecasting
+- Insight Extraction
